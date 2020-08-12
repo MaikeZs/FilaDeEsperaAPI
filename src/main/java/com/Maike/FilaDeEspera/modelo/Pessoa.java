@@ -10,9 +10,12 @@ public class Pessoa {
     @GeneratedValue
     private Long id;
     private String nome;
-    private int idade;
+    private Integer idade;
 
-    public Pessoa(Long id, String nome, int idade) {
+    public Pessoa() {
+    }
+
+    public Pessoa(Long id, String nome, Integer idade) {
         this.id = id;
         this.nome = nome;
         this.idade = idade;
@@ -34,11 +37,11 @@ public class Pessoa {
         this.nome = nome;
     }
 
-    public int getIdade() {
+    public Integer getIdade() {
         return idade;
     }
 
-    public void setIdade(int idade) {
+    public void setIdade(Integer idade) {
         this.idade = idade;
     }
 }

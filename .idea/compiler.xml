@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="FilaDeEspera" target="11" />
+      <module name="FilaDeEspera" target="8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
